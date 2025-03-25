@@ -5,19 +5,21 @@ import ForBusinesses from "./Components/Home/ForBusinesses";
 import Banner from "./Components/Home/Banner";
 import ContactUs from "./Components/Home/ContactUs";
 import Download from "./Components/Home/Download";
+import FAQS from "./Components/Home/FAQS";
+import Language from "./Components/Home/Language";
 
 export default function App() {
   return (
-    <div>
+    <div className="">
       <BrowserRouter>
         <Navbar />
-        <Banner/>
+        <Banner />
         <Categorys />
-
         <ForBusinesses />
-        <ContactUs/>
-        <Download/>
-
+        <FAQS />
+        <Download />
+        <Language/>
+        <ContactUs />
       </BrowserRouter>
     </div>
   );

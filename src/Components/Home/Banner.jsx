@@ -1,75 +1,54 @@
 import React from "react";
-import playstore from '../../Asstes/images/download.png'
-import apple from '../../Asstes/images/downlaod.png'
+import playstore from "../../Asstes/images/download.png";
+import apple from "../../Asstes/images/downlaod.png";
+import banner from "../../Asstes/images/banner.png";
 
 const Banner = () => {
-
-  const data = [
-    {
-      title: "Politics",
-    },
-    {
-      title: "Sports",
-    },
-    {
-      title: "Tech",
-    },
-    {
-      title: "Business",
-    },
-    {
-      title: "World",
-    },
-  ];
-
   return (
-    <section
-      className="relative bg-gray-950 text-white text-center py-10 lg:py-[102px] px-6 bg-cover bg-center"
-      style={{
-        backgroundImage:
-          "linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('news-background.jpg')",
-      }}
-    >
-      <div className="max-w-5xl mx-auto bg-gray-900 bg-opacity-80  p-12 rounded-lg shadow-xl border border-gray-800">
-        <h1 className="text-2xl md:text-6xl font-bold mb-6 leading-tight text-white drop-shadow-md">
-          Stay Updated with the Latest News
-        </h1>
-
-        <p className="text-lg mb-8 text-gray-300 font-medium">
-          Explore real-time updates, breaking news, and insightful reports
-          tailored just for you.
-        </p>
-
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-10">
-          {data.map((categorys, index) => (
-            <button
-              key={index}
-              className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white py-3 px-6 rounded-lg shadow-md transition-all hover:scale-105 border border-blue-900"
-            >
-              {categorys.title}
-            </button>
-          ))}
+    <>
+      <div
+        id="/"
+        className="md:flex items-center md:gap-5 lg:gap-10 mx-5 md:mx-10 lg:mx-20 mt-10 bg-white rounded-lg   "
+      >
+        <div className="w-full md:w-1/2 ">
+          <img src={banner} className="rounded-lg shadow-lg" alt="banner" />
         </div>
+        <div className="md:w-2/3">
+          <h1 className="text-4xl md:text-3xl lg:text-5xl font-extrabold mb-6 text-gray-900 drop-shadow-lg">
+            "Stay Informed with Real-Time News Updates
+          </h1>
 
-        <div className="md:flex justify-center items-center gap-6">
-          <a
-            href="/"
-            className="text-gray-900 py-5 px-8 rounded-lg  lg:text-lg font-semibold shadow-lg transition-all hover:scale-105 border flex justify-center items-center m "
-          >
+          <p className="text-lg mb-8 text-gray-600 font-medium">
+            Get the latest breaking stories, in-depth reports, and trending
+            headlines—delivered straight to you as it happens."
+          </p>
 
-            <img src={playstore} className="lg:w-40" alt="" />
-          </a>
+          <div className="flex gap-3">
+            <a
+              href="/"
+              className="font-semibold  transition-all hover:scale-105"
+            >
+              <img
+                src={playstore}
+                className="w-[200px] md:w-40"
+                alt="Play Store"
+              />
+            </a>
 
-
-          <a
-            href="/"
-            className="bg-gray-800 hover:bg-gray-700 p-5 md:py-5 md:px-8 rounded-lg text-lg font-semibold shadow-lg transition-all hover:scale-105  border border-gray-700 flex justify-center items-center mt-5 md:mt-0"
-          >
-            <img src={apple} className="lg:w-40 flex justify-center items-center" alt="" />
-          </a>
+            <a
+              href="/"
+              className="md:text-lg transition-all hover:bg-gray-700 hover:scale-105 md:mt-0"
+            >
+              <img
+                src={apple}
+                className="w-[200px] md:w-40"
+                alt="Apple Store"
+              />
+            </a>
+          </div>
         </div>
       </div>
-    </section>
+    </>
   );
 };
 

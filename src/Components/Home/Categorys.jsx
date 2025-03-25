@@ -50,32 +50,21 @@ const Categorys = () => {
   ];
 
   return (
-    <div
-      id="Categorys"
-      className="px-5 md:px-8  lg:px-0 md:max-w-5xl lg:max-w-7xl  lg:mx-auto mt-10"
-    >
-      <h2 className="text-4xl font-semibold text-center mb-10 ">
-        Categories
-      </h2>
+    <div id="Categorys" className="mx-5 md:mx-10 lg:mx-20 mt-10">
+      <h2 className="text-4xl font-semibold text-center mb-10 ">Categories</h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
         {categories.map((category, index) => (
           <div
             key={index}
-            className="relative p-10 border border-transparent  shadow-xl text-center hover:scale-105 duration-500 hover:shadow-xl group"
+            className=" p-10 border border-transparent  shadow-xl text-center hover:scale-105 duration-500 hover:shadow-xl group"
           >
-            <div className=" bg-white/30 "></div>
-
             <div className="relative">
               <button className="text-4xl font-semibold text-iconscolors group-hover:text-blue-500 transition-colors duration-300">
                 {category.icon}
               </button>
-              <h3 className="text-xl font-semibold mb-2 hover:text-white">
-                {category.title}
-              </h3>
+              <h3 className="text-xl font-semibold mb-2 ">{category.title}</h3>
               <p className=" ">{category.desc}</p>
             </div>
-
-            <div className="absolute inset-0 flex items-center justify-center bg-black/70  opacity-0 group-hover:opacity-100 group-hover:text-white duration-700 "></div>
           </div>
         ))}
       </div>
