@@ -59,7 +59,43 @@ const Navbar = () => {
             className={`group w-max ${isActive("#Categorys")}`}
             onClick={() => handleScroll("#Categorys")}
           >
-            Category's
+            Categorys
+          </HashLink>
+
+          <HashLink
+            smooth
+            to="#Categorys"
+            className={`group w-max ${isActive("#Categorys")}`}
+            onClick={() => handleScroll("#Categorys")}
+          >
+            Novels
+          </HashLink>
+
+
+          <HashLink
+            smooth
+            to="#Categorys"
+            className={`group w-max ${isActive("#Categorys")}`}
+            onClick={() => handleScroll("#Categorys")}
+          >
+            Stocks
+          </HashLink>
+
+          <HashLink
+            smooth
+            to="#Categorys"
+            className={`group w-max ${isActive("#Categorys")}`}
+            onClick={() => handleScroll("#Categorys")}
+          >
+            Grocery Offers
+          </HashLink>
+          <HashLink
+            smooth
+            to="#Categorys"
+            className={`group w-max ${isActive("#Categorys")}`}
+            onClick={() => handleScroll("#Categorys")}
+          >
+            Speaker
           </HashLink>
 
           <HashLink
@@ -134,6 +170,51 @@ const Navbar = () => {
             >
               Category's
             </HashLink>
+
+            <HashLink
+              smooth
+              to="#Categorys"
+              className={isActive("#Categorys")}
+              onClick={() => handleScroll("#Categorys")}
+            >
+              Novels
+            </HashLink>
+
+
+            <HashLink
+              smooth
+              to="#Categorys"
+              className={isActive("#Categorys")}
+              onClick={() => handleScroll("#Categorys")}
+            >
+              Stocks
+            </HashLink>
+
+            
+            <HashLink
+              smooth
+              to="#Categorys"
+              className={isActive("#Categorys")}
+              onClick={() => handleScroll("#Categorys")}
+            >
+              Gerocery Offers
+            </HashLink>
+
+              
+            <HashLink
+              smooth
+              to="#Categorys"
+              className={isActive("#Categorys")}
+              onClick={() => handleScroll("#Categorys")}
+            >
+              Speaker
+            </HashLink>
+
+
+
+
+
+
             <HashLink
               smooth
               to="#ContactUs"
