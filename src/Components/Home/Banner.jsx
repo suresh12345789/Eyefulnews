@@ -14,7 +14,7 @@ const Banner = () => {
           <img src={banner} className="rounded-lg shadow-lg" alt="banner" />
         </div>
         <div className="md:w-2/3">
-          <h1 className="text-4xl md:text-3xl lg:text-5xl font-extrabold mb-6 text-gray-900 drop-shadow-lg">
+          <h1 className="text-4xl md:text-3xl lg:text-5xl mt-5 md:mt-0 font-extrabold mb-6 text-gray-900 drop-shadow-lg">
             "Stay Informed with Real-Time News Updates
           </h1>
 

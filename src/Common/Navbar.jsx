@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     <header className="shadow-lg w-full bg-white z-10 sticky top-0">
-      <div className="flex items-center justify-between md:py-4 px-5 lg:px-0 py-2 h-24  mx-5 md:mx-10 lg:mx-20">
+      <div className="flex items-center justify-between md:py-4  h-24  mx-5 md:mx-10 lg:mx-20">
         <div>
           <a href="/">
             <img src={logo} alt="" className="w-40" />
@@ -71,31 +71,16 @@ const Navbar = () => {
             Novels
           </HashLink>
 
-          <HashLink
-            smooth
-            to="#Categorys"
-            className={`group w-max ${isActive("#Categorys")}`}
-            onClick={() => handleScroll("#Categorys")}
-          >
-            Stocks
-          </HashLink>
 
           <HashLink
             smooth
-            to="#Categorys"
-            className={`group w-max ${isActive("#Categorys")}`}
-            onClick={() => handleScroll("#Categorys")}
+            to="#Grocery"
+            className={`group w-max ${isActive("#Grocery")}`}
+            onClick={() => handleScroll("#Grocery")}
           >
             Grocery
           </HashLink>
-          <HashLink
-            smooth
-            to="#Categorys"
-            className={`group w-max ${isActive("#Categorys")}`}
-            onClick={() => handleScroll("#Categorys")}
-          >
-            Speaker
-          </HashLink>
+       
 
           <HashLink
             smooth

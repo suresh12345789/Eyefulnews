@@ -10,6 +10,7 @@ import FAQS from "./Components/Home/FAQS";
 import Language from "./Components/Home/Language"
 import Fotter from "./Common/Fotter"
 import Novels from "./Components/Home/Novels";
+import Grocery from "./Components/Home/Grocery";
 
 
 
@@ -21,6 +22,7 @@ export default function App() {
         <Banner />
         <Categorys />
         <Novels/>
+        <Grocery/>
         <ForBusinesses />
         <FAQS />
         <Language/>

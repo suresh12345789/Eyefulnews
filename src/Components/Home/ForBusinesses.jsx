@@ -9,7 +9,7 @@ const ForBusinesses = () => {
           <h4 className="text-iconscolors font-bold text-sm uppercase">
             For Businesses
           </h4>
-          <h2 className="text-4xl font-bold text-gray-900 mt-2">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
             Elevate Your Brand with{" "}
             <span className="text-iconscolors">Eye Full News</span>
           </h2>
@@ -26,7 +26,7 @@ const ForBusinesses = () => {
           </button>
         </div>
 
-        <div className="flex justify-center mt-5 md:mt-0 lg:mt-10 w-full md:w-1/2">
+        <div className="flex justify-center  md:mt-0 lg:mt-10 w-full md:w-1/2">
           <div className="bg-black rounded-lg shadow-lg w-full h-[50vh] relative">
             <img
               src={forbussiness}

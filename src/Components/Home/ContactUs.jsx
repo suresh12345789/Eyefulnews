@@ -6,26 +6,19 @@ const ContactUs = () => {
     <>
       <div
         id="ContactUs"
-        className="min-h-screen bg-black md:flex items-center justify-center p-6 relative overflow-hidden mt-10"
+        className="min-h-screen p-5 md:p-0 bg-black md:flex items-center justify-center relative overflow-hidden mt-10"
       >
-        <div className="absolute inset-0  to-blue-500 opacity-30 blur-3xl"></div>
-
-        <div className="mx-5 md:mx-10 lg:mx-36 w-full bg-white/5 backdrop-blur-2xl border border-white shadow-2xl rounded-2xl p-8 relative overflow-hidden">
+        <div className=" md:mx-10 lg:mx-20 w-full bg-white/5 backdrop-blur-2xl border border-white shadow-2xl rounded-2xl p-8 relative overflow-hidden">
           <h2 className="text-4xl font-extrabold text-white text-center mb-6 tracking-wide uppercase drop-shadow-lg">
             Get in Touch
           </h2>
 
           <div className="md:flex gap-10  text-white">
             <div className="space-y-6 md:w-1/2 md:mt-10">
-              <div className="flex items-center space-x-4 p-4 bg-white/10 rounded-lg shadow-lg hover:scale-105 transition transform duration-300 cursor-pointer">
-                <FaMapMarkerAlt className="text-red-400 text-2xl" />
+              <div className="flex  items-center space-x-4 p-4 bg-white/10 rounded-lg shadow-lg hover:scale-105 transition transform duration-300 cursor-pointer">
+                <FaMapMarkerAlt className="text-red-400 text-5xl md:text-2xl" />
                 <p>
-                  <a
-                    href="https://www.google.com/maps?q=2nd+Floor,+Bansal+Pride+Building,+Madhapur,+Telangana+500081"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-white underline"
-                  >
+                  <a href="/" className="text-white underline">
                     2nd Floor, Bansal Pride Building, Madhapur, Telangana 500081
                   </a>
                 </p>
@@ -44,7 +37,7 @@ const ContactUs = () => {
               </div>
 
               <div className="flex items-center space-x-4 p-4 bg-white/10 rounded-lg shadow-lg hover:scale-105 transition transform duration-300 cursor-pointer">
-                <FaEnvelope className="text-2xl" />
+                <FaEnvelope className="text-5xl md:text-2xl" />
                 <p>
                   <a
                     href="mailto:nareshtullibilli909@gmail.com"

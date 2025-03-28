@@ -1,30 +1,38 @@
 import React from "react";
+import novel from "../../Asstes/images/novel.png";
+import novel1 from "../../Asstes/images/novel1.png";
+import novel2 from "../../Asstes/images/novel2.png";
+import novel3 from "../../Asstes/images/novel3.png";
 
 const Novels = () => {
   const books = [
     {
-      img: "https://img.freepik.com/free-photo/portrait-young-redhead-bearded-male-holding-book-room-with-green-plants_613910-9858.jpg?ga=GA1.1.756816216.1739273136&semt=ais_hybrid",
-      title: "",
+      img: novel,
+      title: "Where Are You",
     },
     {
-      img: "https://img.freepik.com/free-photo/people-relaxing-countryside_23-2151335956.jpg?ga=GA1.1.756816216.1739273136&semt=ais_hybrid",
-      title: "",
+      img: novel3,
+      title: "Every Visible Thing",
     },
     {
-      img: "https://img.freepik.com/free-photo/pretty-handsome-young-man-laying-shirtless-his-bed-holding-coffee-tea-cup-while-reading-book_496169-813.jpg?ga=GA1.1.756816216.1739273136&semt=ais_hybrid",
-      title: "",
+      img: novel1,
+      title: "The primal of blood and bone",
     },
     {
-      img: "https://img.freepik.com/free-photo/young-attractive-woman-cozy-red-sweater-is-reading-book-while-sitting-home-sofa-with-cup-drink_169016-12968.jpg?ga=GA1.1.756816216.1739273136&semt=ais_hybrid",
-      title: "",
+      img: novel2,
+      title: "What's Done In Darkness",
     },
   ];
 
   return (
     <>
-      <div className="mx-5 md:mx-10 lg:mx-20 mt-10">
+      <div className="mx-5 md:mx-10 lg:mx-20 mt-5 md:mt-10">
         <hr className="mb-10" />
-        <div id="Novels" className="md:flex items-center gap-10">
+        <h1 className="text-center text-3xl md:text-4xl font-semibold  ">
+          Novels
+        </h1>
+
+        <div id="Novels" className="md:flex items-center mt-5 md:mt-10 gap-10">
           <div className="md:w-1/2">
             <img
               src="https://img.freepik.com/free-photo/handsome-young-man-reading-magazine-standing-front-book-shelf_23-2147936796.jpg?ga=GA1.1.756816216.1739273136&semt=ais_hybrid"
@@ -34,10 +42,10 @@ const Novels = () => {
           </div>
 
           <div className="md:w-1/2 mt-5 md:mt-0">
-            <h1 className="text-2xl md:text-3xl lg:text-5xl font-semibold text-iconscolors">
+            <h1 className="text-2xl md:text-3xl text-iconscolors lg:text-5xl font-semibold">
               Trending News-Based Novels
             </h1>
-            <p className="text-lg mt-10">
+            <p className="text-lg mt-5 md:mt-10">
               {" "}
               Bring real-world events to life through compelling storytelling.
               These novels are inspired by current affairs, politics, history,
@@ -53,19 +61,20 @@ const Novels = () => {
 
         <div className="mt-10">
           <div className="">
-            <h1 className="text-4xl font-semibold">Top picks</h1>
+            <h1 className="text-3xl md:text-4xl font-semibold">Top picks</h1>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-5">
-            {books.map((novels,index) => (
-              <div key={index} className="bg-white shadow-md p-3">
-                <img src={novels.img} alt="" className="w-full rounded-lg h-48"/>
-                <h1 className="p-2 text-xl font-semibold text-iconscolors">The Wolf half</h1>
+            {books.map((novels, index) => (
+              <div key={index} className="bg-white shadow-md">
+                <img src={novels.img} alt="" className="w-full  rounded-lg" />
+                <h1 className="p-2 text-xl font-semibold text-iconscolors">
+                  {novels.title}
+                </h1>
               </div>
             ))}
           </div>
         </div>
-      <hr className="mt-10" />
-
+        <hr className="mt-10" />
       </div>
     </>
   );
