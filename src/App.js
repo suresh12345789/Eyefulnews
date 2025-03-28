@@ -9,6 +9,7 @@ import Download from "./Components/Home/Download";
 import FAQS from "./Components/Home/FAQS";
 import Language from "./Components/Home/Language"
 import Fotter from "./Common/Fotter"
+import Novels from "./Components/Home/Novels";
 
 
 
@@ -19,9 +20,9 @@ export default function App() {
         <Navbar />
         <Banner />
         <Categorys />
+        <Novels/>
         <ForBusinesses />
         <FAQS />
-        <Download />
         <Language/>
         <ContactUs />
         <Download/>

@@ -32,14 +32,14 @@ const Navbar = () => {
 
   return (
     <header className="shadow-lg w-full bg-white z-10 sticky top-0">
-      <div className="flex items-center justify-between md:py-4 px-5 lg:px-0 py-2 h-20  mx-5 md:mx-10 lg:mx-20">
+      <div className="flex items-center justify-between md:py-4 px-5 lg:px-0 py-2 h-24  mx-5 md:mx-10 lg:mx-20">
         <div>
           <a href="/">
             <img src={logo} alt="" className="w-40" />
           </a>
         </div>
 
-        <nav className="items-center hidden lg:space-x-5 space-x-3 md:flex text-md font-semibold">
+        <nav className="hidden lg:space-x-5 space-x-3 md:flex items-center text-sm lg:text-lg font-semibold">
           <HashLink smooth to="#" className={`group w-max ${isActive("/")}`}>
             Home
           </HashLink>
@@ -64,13 +64,12 @@ const Navbar = () => {
 
           <HashLink
             smooth
-            to="#Categorys"
-            className={`group w-max ${isActive("#Categorys")}`}
-            onClick={() => handleScroll("#Categorys")}
+            to="#Novels"
+            className={`group w-max ${isActive("#Novels")}`}
+            onClick={() => handleScroll("#Novels")}
           >
             Novels
           </HashLink>
-
 
           <HashLink
             smooth
@@ -87,7 +86,7 @@ const Navbar = () => {
             className={`group w-max ${isActive("#Categorys")}`}
             onClick={() => handleScroll("#Categorys")}
           >
-            Grocery Offers
+            Grocery
           </HashLink>
           <HashLink
             smooth
@@ -110,9 +109,7 @@ const Navbar = () => {
           <HashLink
             smooth
             to="#Download"
-            className={`group bg-black text-white px-3 duration-1000 py-2 rounded-lg ${isActive(
-              "#Download"
-            )}`}
+            className={`group bg-black text-white px-2 py-2 rounded-lg text-sm lg:text-lg`}
             onClick={() => handleScroll("#Download")}
           >
             Get App Now
@@ -180,7 +177,6 @@ const Navbar = () => {
               Novels
             </HashLink>
 
-
             <HashLink
               smooth
               to="#Categorys"
@@ -190,7 +186,6 @@ const Navbar = () => {
               Stocks
             </HashLink>
 
-            
             <HashLink
               smooth
               to="#Categorys"
@@ -200,7 +195,6 @@ const Navbar = () => {
               Gerocery Offers
             </HashLink>
 
-              
             <HashLink
               smooth
               to="#Categorys"
@@ -209,11 +203,6 @@ const Navbar = () => {
             >
               Speaker
             </HashLink>
-
-
-
-
-
 
             <HashLink
               smooth

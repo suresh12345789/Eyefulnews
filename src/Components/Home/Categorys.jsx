@@ -47,6 +47,7 @@ const Categorys = () => {
       desc: "Save articles and access them anytime in your personalized reading list.",
       icon: <FaBriefcase />,
     },
+    
   ];
 
   return (
