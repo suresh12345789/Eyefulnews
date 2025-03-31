@@ -59,13 +59,13 @@ const Grocery = () => {
   ];
 
   return (
-    <>
+    <div  id="Grocery">
       <h1 className="text-center mt-5 md:mt-10 text-4xl font-semibold ">
         Grocery Offers
       </h1>
 
       <div
-        id="Grocery"
+       
         className="grid md:grid-cols-2 lg:grid-cols-3 mx-5 md:mx-10 lg:mx-20 mt-5 md:mt-10 gap-10"
       >
         {images.map((value, index) => (
@@ -89,7 +89,7 @@ const Grocery = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

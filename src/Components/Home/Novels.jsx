@@ -26,7 +26,7 @@ const Novels = () => {
 
   return (
     <>
-      <div className="mx-5 md:mx-10 lg:mx-20 mt-5 md:mt-10">
+      <div id="Novels" className="mx-5 md:mx-10 lg:mx-20 mt-5 md:mt-10">
         <hr className="mb-10" />
         <h1 className="text-center text-3xl md:text-4xl mb-5 md:mb-10 font-semibold  ">
           Novels

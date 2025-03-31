@@ -94,7 +94,7 @@ const Navbar = () => {
           <HashLink
             smooth
             to="#Download"
-            className={`group bg-black text-white px-2 py-2 rounded-lg text-sm lg:text-lg`}
+            className={`group bg-black text-white px-2 py-2 rounded-lg`}
             onClick={() => handleScroll("#Download")}
           >
             Get App Now
@@ -126,7 +126,7 @@ const Navbar = () => {
             <MdClose size={30} />
           </button>
 
-          <nav className="mt-8 font-semibold space-y-10 text-xl flex flex-col items-center">
+          <nav className="mt-8 font-semibold text-sm space-y-10  flex flex-col items-center">
             <HashLink
               smooth
               to="#"

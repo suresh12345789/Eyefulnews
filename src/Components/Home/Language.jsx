@@ -6,8 +6,6 @@ const Language = () => {
     <div className="">
         
     </div>
-    
-    
     </>
   )
 }
