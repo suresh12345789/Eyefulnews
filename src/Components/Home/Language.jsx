@@ -27,7 +27,7 @@ const Language = () => {
   ];
 
   return (
-    <div>
+    <div id="Language">
       <div className="text-center">
         <h1 className="text-4xl  font-semibold">Languages</h1>
       </div>

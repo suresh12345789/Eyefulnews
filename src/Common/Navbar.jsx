@@ -46,9 +46,9 @@ const Navbar = () => {
 
           <HashLink
             smooth
-            to="#About"
-            className={`group w-max ${isActive("#About")}`}
-            onClick={() => handleScroll("#About")}
+            to="#Language"
+            className={`group w-max ${isActive("#Language")}`}
+            onClick={() => handleScroll("#Language")}
           >
             Language
           </HashLink>
