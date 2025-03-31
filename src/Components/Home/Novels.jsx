@@ -1,4 +1,5 @@
 import React from "react";
+import novels from "../../Asstes/images/novels.png"
 import novel from "../../Asstes/images/novel.png";
 import novel1 from "../../Asstes/images/novel1.png";
 import novel2 from "../../Asstes/images/novel2.png";
@@ -28,15 +29,15 @@ const Novels = () => {
     <>
       <div id="Novels" className="mx-5 md:mx-10 lg:mx-20 mt-5 md:mt-10">
         <hr className="mb-10" />
-        <h1 className="text-center text-3xl md:text-4xl mb-5 md:mb-10 font-semibold  ">
+        <h1 className="text-center text-3xl md:text-4xl mb-10 font-semibold  ">
           Novels
         </h1>
 
         <div id="Novels" className="md:flex items-center  gap-10">
           <div className="md:w-1/2">
             <img
-              src="https://img.freepik.com/free-photo/handsome-young-man-reading-magazine-standing-front-book-shelf_23-2147936796.jpg?ga=GA1.1.756816216.1739273136&semt=ais_hybrid"
-              className="rounded-lg w-full"
+              src={novels}
+              className="rounded-lg w-full shadow-lg"
               alt=""
             />
           </div>

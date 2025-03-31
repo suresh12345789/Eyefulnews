@@ -10,7 +10,7 @@ const Navbar = () => {
   const location = useLocation();
 
   const isActive = (hash) => {
-    return location.hash === hash ? "text-iconscolors" : "";
+    return location.hash === hash ? "text-iconscolors border-b-2 border-iconscolors" : "";
   };
 
   const handleScroll = (hash) => {
@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     <header className="shadow-lg w-full bg-white z-10 sticky top-0">
-      <div className="flex items-center justify-between md:py-4  h-24  mx-5 md:mx-10 lg:mx-20">
+      <div className="flex items-center  justify-between md:py-4  h-24  mx-5 md:mx-10 lg:mx-20">
         <div>
           <a href="/">
             <img src={logo} alt="" className="w-40" />
