@@ -32,7 +32,7 @@ const Fotter = () => {
           </li>
 
           <li className="pt-3">
-            <a href="https://maps.app.goo.gl/QCyNbRabUNhSDA5Q9" target="_blank">
+            <a href="https://maps.app.goo.gl/QCyNbRabUNhSDA5Q9">
               <div className="flex  gap-2 hover:text-iconscolors">
                 <h1 className="text-2xl">
                   <FaLocationDot />
@@ -45,7 +45,7 @@ const Fotter = () => {
           </li>
         </ul>
 
-        <ul className=" leading-10  text-md  mb-6 md:mb-0    md:pl-36   md:text-start">
+        <ul className=" leading-10  text-md  mb-6 md:mb-0 md:pl-36 md:text-start">
           <li>
             <a href="/" className="hover:border-b-2 hover:border-iconscolors">
               Home
@@ -72,7 +72,7 @@ const Fotter = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="#Category"
               className="hover:border-b-2 hover:border-iconscolors"
             >
              Category's
