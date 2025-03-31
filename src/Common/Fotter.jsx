@@ -95,7 +95,7 @@ const Fotter = () => {
               <MdEmail size={25} />
             </button>
             <a href="mailto:shivakumar@cresolinfoserv.com">
-              shivakumar@cresolinfoserv.com
+              Eyefull News.com
             </a>
           </li>
 
@@ -103,7 +103,7 @@ const Fotter = () => {
             <button className="">
               <FaPhoneVolume size={25} />
             </button>
-            <a href="tel:+919948333447">+91 9948333447</a>
+            <a href="tel:+919948333447">+91 99 8888 7777</a>
           </li>
 
           <div className="mt-5">

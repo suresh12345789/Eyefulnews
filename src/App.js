@@ -20,12 +20,13 @@ export default function App() {
       <BrowserRouter>
         <Navbar />
         <Banner />
+        <Language/>
         <Categorys />
         <Novels/>
         <Grocery/>
         <ForBusinesses />
         <FAQS />
-        <Language/>
+     
         <ContactUs />
         <Download/>
         <Fotter/>
