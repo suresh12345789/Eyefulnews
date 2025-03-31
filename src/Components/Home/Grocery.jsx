@@ -78,10 +78,10 @@ const Grocery = () => {
             </div>
 
             <div className="flex justify-between place-content-center items-center p-5 ">
-              <h1 className="text-lg lg:text-2xl font-semibold ">
+              <h1 className="text-lg lg:text-xl font-semibold ">
                 {value.offer}
               </h1>
-              <div className="text-sm md:text-md text-iconscolors">
+              <div className="text-[12px] md:text-sm text-iconscolors">
                 <p>{value.from}</p>
                 <p>{value.expries}</p>
               </div>

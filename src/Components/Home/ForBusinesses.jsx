@@ -5,13 +5,13 @@ const ForBusinesses = () => {
   return (
     <>
       <div className="flex gap-10 flex-col md:flex-row items-center justify-between mx-5 mt-10 md:mx-10 lg:mx-20 bg-gray-100">
-        <div className="md:w-2/3 text-left">
+        <div className="md:w-1/2 text-left">
           <h4 className="text-iconscolors font-bold text-sm uppercase">
             For Businesses
           </h4>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
             Elevate Your Brand with{" "}
-            <span className="text-iconscolors">Eye Full News</span>
+            <span className="text-iconscolors">EyeFul News</span>
           </h2>
           <p className="text-gray-600 mt-4">
             Connect with millions of engaged users as they explore the latest

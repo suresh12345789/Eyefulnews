@@ -155,47 +155,29 @@ const Navbar = () => {
 
             <HashLink
               smooth
-              to="#Categorys"
-              className={isActive("#Categorys")}
-              onClick={() => handleScroll("#Categorys")}
+              to="#Novels"
+              className={isActive("#Novels")}
+              onClick={() => handleScroll("#Novels")}
             >
               Novels
             </HashLink>
 
-            <HashLink
-              smooth
-              to="#Categorys"
-              className={isActive("#Categorys")}
-              onClick={() => handleScroll("#Categorys")}
-            >
-              Stocks
-            </HashLink>
 
             <HashLink
               smooth
-              to="#Categorys"
-              className={isActive("#Categorys")}
-              onClick={() => handleScroll("#Categorys")}
+              to="#Grocery"
+              className={isActive("#Grocery")}
+              onClick={() => handleScroll("#Grocery")}
             >
-              Gerocery Offers
+              Grocery 
             </HashLink>
-
-            <HashLink
-              smooth
-              to="#Categorys"
-              className={isActive("#Categorys")}
-              onClick={() => handleScroll("#Categorys")}
-            >
-              Speaker
-            </HashLink>
-
             <HashLink
               smooth
               to="#ContactUs"
               className={isActive("#ContactUs")}
               onClick={() => handleScroll("#ContactUs")}
             >
-              Conatct
+              ConatctUs
             </HashLink>
             <HashLink
               smooth

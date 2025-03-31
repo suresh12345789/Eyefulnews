@@ -10,7 +10,7 @@ const Banner = () => {
         id="/"
         className="md:flex items-center md:gap-5 lg:gap-10 mx-5 md:mx-10 lg:mx-20 mt-10 bg-white rounded-lg   "
       >
-        <div className="w-full md:w-1/2 ">
+        <div className="w-full md:w-1/3 ">
           <img src={banner} className="rounded-lg shadow-lg" alt="banner" />
         </div>
         <div className="md:w-2/3">

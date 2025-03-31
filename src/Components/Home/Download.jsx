@@ -8,7 +8,7 @@ const Download = () => {
       <div id="Download" className="flex flex-col items-center mt-10">
         <div className="text-center mb-6 ">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-extrabold tracking-wide">
-            Get The <span className="text-iconscolors">EYE FULL NEWS</span> App
+            Get The <span className="text-iconscolors">EYEFUL NEWS</span> App
           </h2>
           <p className="text-sm md:text-md lg:text-lg mt-2 opacity-90">
             Stay updated with short and crisp news in your language.

@@ -28,11 +28,11 @@ const Novels = () => {
     <>
       <div className="mx-5 md:mx-10 lg:mx-20 mt-5 md:mt-10">
         <hr className="mb-10" />
-        <h1 className="text-center text-3xl md:text-4xl font-semibold  ">
+        <h1 className="text-center text-3xl md:text-4xl mb-5 md:mb-10 font-semibold  ">
           Novels
         </h1>
 
-        <div id="Novels" className="md:flex items-center mt-5 md:mt-10 gap-10">
+        <div id="Novels" className="md:flex items-center  gap-10">
           <div className="md:w-1/2">
             <img
               src="https://img.freepik.com/free-photo/handsome-young-man-reading-magazine-standing-front-book-shelf_23-2147936796.jpg?ga=GA1.1.756816216.1739273136&semt=ais_hybrid"
@@ -66,7 +66,7 @@ const Novels = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-5">
             {books.map((novels, index) => (
               <div key={index} className="bg-white shadow-md">
-                <img src={novels.img} alt="" className="w-full  rounded-lg" />
+                <img src={novels.img} alt="" className="w-full h-60 object-cover rounded-lg" />
                 <h1 className="p-2 text-xl font-semibold text-iconscolors">
                   {novels.title}
                 </h1>
